@@ -10,13 +10,17 @@ and open the template in the editor.
     <h:head>
         <title>Practica 02</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="micss.css"/>
     </h:head>
-    <h:body>
+    <h:body class="testbox">
+        
+         <div >
         <h:messages infoStyle="color: blue;list-style:nome;"/>
         <h:outputLabel value="Ingreso con el usuario: "/>
         <h:outputText value="#{mbSession.usuario}"/>
         <h:form>
             <h:commandButton value="cerrar session" action="#{mbSession.cerrarSession()}"/>
         </h:form>
+        </div>
     </h:body>
 </html>

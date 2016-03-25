@@ -4,15 +4,17 @@
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:pt="http://xmlns.jcp.org/jsf/passthrough">
     <h:head>
-        <title>Facelet Title</title>
+        <title>PAGINA PRINCIPAL</title>
         <link rel="stylesheet" href="/JSPSesion/public/css/cssFormulario.css"/>
+        <link rel="stylesheet" href="micss.css"/>
     </h:head>
-    <h:body>
+    <h:body >
         <section class="contenedorLogin">
             <h:form class="formulario">
                 <h2>Acceso de Usuario</h2>
-                <p>Llene el siguiente formulario para ingresar al sistema </p>
-                <p><h:inputText pt:placeholder="Usuario" value="#{mbLogin.usuario}"/></p>
+                <h1>Llene el siguiente formulario para ingresar al sistema </h1>
+                <p><h:inputText pt:placeholder="Usuario" value="#{mbLogin.usuario}"
+                                /></p>
                 <p><h:inputSecret pt:placeholder="Contraseña" value="#{mbLogin.contrasena}"/></p>
                 <h:messages infoStyle="color: blue;list-style:nome;" errorStyle="color:red;list-style:none;"/>
                 <section class="seccionBotones">
