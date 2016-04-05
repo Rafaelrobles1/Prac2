@@ -1,0 +1,59 @@
+.testbox{
+    background-color: green;
+    border: 2px solid black;
+    padding: 15px;
+    text-align: center;
+    margin: 20px 200px;
+    widht: 400px;
+      
+}
+
+#texto{
+    font: bold 30px Tohoma;
+    width: 100%
+    
+}
+.contenedorLogin{
+    background-color: greenyellow;
+    
+    
+}
+.formulario input[type=submit]
+{
+    background-color: #409FBA;
+    border: nome;
+    border-radius: 2px;
+    box-shadow: 0px opx 2px rgba(0,0,0,0.4), 0px 0px 2px white inset;
+    color: white;
+    font-size: 17px;
+    height: 35px;
+    margin: 4px;
+    min-width: 100px;
+    -vebkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    -ms-transition: background-color 0.2s;
+    -c-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+    
+}
+
+.formulario input[type=submit]:hover
+{
+    background-color: #D84530;
+    cursor: pointer;
+    
+}
+
+.formulario input[type=sumbit]:hover
+{
+    background-color: #D84530;
+    cursor: pointer;
+}
+
+.formulario input[type=sumbit]:focus
+{
+    outline: none;
+    
+}
+
+
